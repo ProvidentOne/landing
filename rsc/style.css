@@ -139,21 +139,29 @@ h2 {
 }
 
 @media screen and (max-width: 767px) {
+  html, body {
+    height: auto;
+    min-height: 100%;
+  }
+
   .pure-menu {
     text-align: center;
   }
 
-  #content, #hero {
+  #particles h1 {
+    top: 15%;
+  }
+
+  #particles, #content, #hero {
     position: static;
+    height: auto;
   }
 
-  #particles, #content {
-    height: 50%;
+  #hero {
+    transform: none;
   }
-}
 
-@media screen and (max-height: 320px) {
-  #content {
-    display: none;
+  #buttons .pure-button {
+    margin-bottom: 0.5rem;
   }
 }
