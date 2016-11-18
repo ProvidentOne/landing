@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  background: #001A26;
+  background-image: linear-gradient(to bottom left, #8658c9, #191919);
 }
 
 *, *:before, *:after {
@@ -51,8 +51,12 @@ body > .pure-g {
 }
 
 #hero p {
-  /*font-family: 'Source Code Pro';*/
   font-weight: 300;
+  font-size: 1.1rem;
+}
+
+.fa {
+  margin-right: 0.75rem;
 }
 
 #buttons {
@@ -62,6 +66,14 @@ body > .pure-g {
 #buttons .pure-button {
   text-transform: uppercase;
   margin-right: 0.5rem;
+  transition: all 0.2s;
+}
+
+#buttons .pure-button:hover {
+  box-shadow: 0 0 10px #191919;
+  background-image: none;
+  background-color: white;
+  margin-top: -5px;
 }
 
 h2 {
@@ -126,30 +138,12 @@ h2 {
   border-color: white;
 }
 
-#quote {
-  position: absolute;
-  bottom: 0;
-  padding: 1em;
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
-#quote p {
-  font-style: italic;
-  font-size: 1rem;
-  font-weight: 300;
-}
-
-#subscribe {
-  outline: 0;
-  cursor: pointer;
-}
-
 @media screen and (max-width: 767px) {
   .pure-menu {
     text-align: center;
   }
 
-  #content, #hero, #sample {
+  #content, #hero {
     position: static;
   }
 
