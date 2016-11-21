@@ -141,6 +141,7 @@ h2 {
   border: 2px solid transparent;
   transition: border-color 0.25s linear;
   text-align: left;
+  background: transparent;
 }
 
 .pure-menu a:hover, .pure-menu a:focus {
