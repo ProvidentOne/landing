@@ -1,6 +1,8 @@
 html {
   box-sizing: border-box;
-  background-image: linear-gradient(to bottom left, #8658c9, #191919);
+  background-image: linear-gradient(to bottom left, #8658c9, #0365C0);
+  background-repeat: no-repeat;
+  background-color: #0365C0;
 }
 
 *, *:before, *:after {
@@ -71,6 +73,7 @@ body > .pure-g {
   text-transform: uppercase;
   margin-right: 0.5rem;
   transition: all 0.2s;
+  margin-bottom: 1rem;
 }
 
 #buttons .pure-button:hover {
@@ -149,10 +152,6 @@ h2 {
   border-color: white;
 }
 
-#announcement {
-  background: #8658c9;
-}
-
 #post {
   margin: 0 -2.5rem;
   padding: 1rem 2.5rem 2.5rem 2.5rem;
@@ -180,6 +179,10 @@ h2 {
     text-align: center;
   }
 
+  .pure-menu a:not(.pure-menu-heading) {
+    display: block;
+  }
+
   #particles h1 {
     top: 15%;
   }
@@ -191,10 +194,6 @@ h2 {
 
   #hero {
     transform: none;
-  }
-
-  #buttons .pure-button {
-    margin-bottom: 0.5rem;
   }
 
   .pure-menu-list {
