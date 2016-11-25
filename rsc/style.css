@@ -169,6 +169,17 @@ h2 {
   font-size: 1.1rem;
 }
 
+#hackathon {
+  width: 100%;
+  color: white;
+}
+
+#hackathon img {
+  width: 64px;
+  float: left;
+  margin-right: 1rem;
+}
+
 @media screen and (max-width: 767px) {
   html, body {
     height: auto;
